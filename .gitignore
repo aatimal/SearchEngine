@@ -1,0 +1,5 @@
+*.txt
+DEV/
+__pycache__/
+search/
+Unmerged_Indexes/
