@@ -1,18 +1,10 @@
 from index import *
-from search_gui import SearchGui
-
-# word = "hello"
-
-# index = InvertedIndex(word)
-# index.CreateIndex()
 
 if __name__ == "__main__":
     index = InvertedIndex("a")
-    # index.CreateIndex()
+    index.CreateIndex()
 
     index.setUpSeekPoints()
-
-    gui = SearchGui()
 
     print("Done!", flush=True)
     # with open("index.txt", "w") as f:

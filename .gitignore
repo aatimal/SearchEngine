@@ -3,3 +3,5 @@ DEV/
 __pycache__/
 search/
 Unmerged_Indexes/
+
+!requirements.txt
